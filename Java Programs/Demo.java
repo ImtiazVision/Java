@@ -23,7 +23,7 @@ class Demo {
             if(desg[i].equals("Manager")){
                   salary[i]=salary[i]+5000;  
             }else if(desg[i].equals("Developer")){
-                   salary[i]=salary[i]+3000; 
+                  salary[i]=salary[i]+3000; 
             }else {
                 salary[i]=salary[i]+1500;
             }

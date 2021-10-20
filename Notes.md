@@ -11,6 +11,6 @@
 
 The **class** is the primary organizational unit in a Java application. The most basic Java application has only one class. **A class is a collection of methods**, among other things.
 
-Methods are classified into two types: static methods and non-static methods.
+Methods are classified into two types: static methods and non-static methods. The method is declared with the keywords public static void, the function's name, parentheses enclosing the function's parameters (String[] args), an open curly brace, and a closing curly brace.
 
 The process of restructuring code into different files, classes, methods, libraries, or functions is known as **factoring**.

@@ -4,3 +4,5 @@
 - It is not dependent on the host platform.
 - It is Secure and Dynamic: It is designed to securely run code from distant sources.
 - It has language support as well as networking libraries.
+- It is Robust: Java has its own powerful memory management system. This helps to eliminate errors by checking the code during compilation and execution.
+- Java is Multithreaded: it supports numerous thread executions (i.e., lightweight processes), as well as a set of synchronization primitives.

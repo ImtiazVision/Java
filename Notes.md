@@ -16,3 +16,5 @@ Methods are classified into two types: static methods and non-static methods. Th
 The process of restructuring code into different files, classes, methods, libraries, or functions is known as **factoring**.
 
 A method called System.out.println can be used to print the text "Hello, World!" to the screen.  `System.out.println("Hello, World!");`.
+
+`System.out` is the name of an object that represents our program's main printed output device. So `System.out.println` invokes the `System.out` object's `println` method.

@@ -13,4 +13,4 @@ The **class** is the primary organizational unit in a Java application. The most
 
 Methods are classified into two types: static methods and non-static methods.
 
-The process of restructuring code into different files, classes, methods, libraries, or functions is known as factoring.
+The process of restructuring code into different files, classes, methods, libraries, or functions is known as **factoring**.

@@ -18,3 +18,5 @@ The process of restructuring code into different files, classes, methods, librar
 A method called System.out.println can be used to print the text "Hello, World!" to the screen.  `System.out.println("Hello, World!");`.
 
 `System.out` is the name of an object that represents our program's main printed output device. So `System.out.println` invokes the `System.out` object's `println` method.
+
+`n` represents a newline, and `t` represents a tab.

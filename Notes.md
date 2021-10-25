@@ -68,3 +68,5 @@ We must occasionally compel Java to transform one type of data to another. For i
 **Explicit Casting** : In contrast, int `x = 5.6` will not work. Java will detect that we are attempting to convert a `floating point` to an `int` and warn us that this may result in precision loss. Java can be reassured by utilizing the **casting operator** : `int x = (int) 5.6`. When casting to an integer, the section after the decimal is **truncated** rather than rounded, therefore this equation will return the value 5, rather than 6.
 
 Java helps to integrate arithmetic and assignment using the operators +=, -=, /=, and *=. As a result, x += 9 increases the value of x by 9. 
+
+The ++ operator adds one to a value, while the -- operator subtracts one. These operators come in handy in Java for and while loops.

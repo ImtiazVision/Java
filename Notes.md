@@ -62,3 +62,7 @@ class Modulus {
 ### Typecasting : 
 
 We must occasionally compel Java to transform one type of data to another. For instance, if we had two int variables and want to split them to get a fractional number, we could convert those values to double values. We may accomplish this by **typecasting** the values, often known as **casting**. A cast operator is preceded by the value to be cast and is written with parentheses and the name of the target type. For instance, `(double) 7` returns the value `7.0`.
+
+**Implicit Casting** :
+
+Casting is handled automatically by Java. For example, if it's stated as 18.0 / 5, Java will opt to cast 5 into a floating point 5.0, which is known as a **implicit cast**. Double x = 5 is another example. The 5 on the right is an integer, but Java knows how to convert it to a double.

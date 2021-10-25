@@ -48,6 +48,17 @@ class FloatingAndIntegerDivision {
   }
 }
 ```
+
+**Modulus Operator** : We may use the modulus operator % to get the remainder that would be left over after integer division:
+```
+class Modulus {
+  public static void main(String args[]) {
+    // output is 3 leftover 
+    System.out.println(18 % 5);
+  }
+}
+```
+
 ### Typecasting : 
 
 We must occasionally compel Java to transform one type of data to another. For instance, if we had two int variables and want to split them to get a fractional number, we could convert those values to double values. We may accomplish this by **typecasting** the values, often known as **casting**. A cast operator is preceded by the value to be cast and is written with parentheses and the name of the target type. For instance, `(double) 7` returns the value `7.0`.

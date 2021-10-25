@@ -40,7 +40,8 @@ Java provides static typing, which means that we must define the data type befor
 
 Integer division divides two integers and returns an integer. Floating-point division is the process of converting two floating-point numbers (numbers with a decimal point) into a floating-point number.
 
-```class FloatingAndIntegerDivision {
+```
+class FloatingAndIntegerDivision {
   public static void main(String args[]) {
     System.out.println(90 / 5);
     System.out.println(10.0 / 5.0);

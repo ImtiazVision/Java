@@ -87,3 +87,26 @@ class MethodParameters {
 }
 ```
 **Code Walkthrough** : Parameters are the method's local variables. The code int x introduces a new int variable, x, in the definition of logMyNumber(int x). When the method is invoked, the value 100 is transferred into the variable x, and the logMyNumber function is executed.
+
+### Method Overloading and Signature :
+
+**Method Overloading** : We can write two different methods with the same name in the same class as long as the parameters are different. The **method signature** is the combination of a method's name and the types of its parameters listed in sequence. Here's an illustration:
+
+```
+class Overload {
+  
+  public static void logIntNumber(int x) {
+    System.out.println("This is an integer " + x);
+  }
+  
+  public static void logDoubleNumber(double x) {
+    System.out.println("Thsi is a double " + x);
+  }
+  
+  public static void main(String[] args) {
+    logIntNumber(42);
+    logDoubleNumber(3.1415);
+  }
+  
+}
+```

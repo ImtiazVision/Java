@@ -85,5 +85,5 @@ class MethodParameters {
  
   }   
 }
-
 ```
+**Code Walkthrough** : Parameters are the method's local variables. The code int x introduces a new int variable, x, in the definition of logMyNumber(int x). When the method is invoked, the value 100 is transferred into the variable x, and the logMyNumber function is executed.

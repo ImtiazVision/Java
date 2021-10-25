@@ -66,3 +66,5 @@ We must occasionally compel Java to transform one type of data to another. For i
 **Implicit Casting** : Casting is handled automatically by Java. For example, if it's stated as `18.0 / 5`, Java will opt to cast `5` into a `floating point 5.0`, which is known as a **implicit cast**. `double x = 5` is another example. The 5 on the right is an integer, but Java knows how to convert it to a double.
 
 **Explicit Casting** : In contrast, int `x = 5.6` will not work. Java will detect that we are attempting to convert a `floating point` to an `int` and warn us that this may result in precision loss. Java can be reassured by utilizing the **casting operator** : `int x = (int) 5.6`. When casting to an integer, the section after the decimal is **truncated** rather than rounded, therefore this equation will return the value 5, rather than 6.
+
+Java helps to integrate arithmetic and assignment using the operators +=, -=, /=, and *=. As a result, x += 9 increases the value of x by 9. 

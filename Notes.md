@@ -31,6 +31,9 @@ When we use the '+' operator to concatenate two variables in Java, as long as on
 
 `System.out.println(42 + 22 + " is my favorite charm.");`
 
+Each new word should begin with a lowercase letter and end with an uppercase letter. Because the capital letters resemble the humps on a camel's back, this practice is frequently referred to as "camel case" e.g. `sampleVariable`.
+
+
 Java provides static typing, which means that we must define the data type before declaring a variable.
 
 `int sampleVariable = 7;`

@@ -70,3 +70,20 @@ We must occasionally compel Java to transform one type of data to another. For i
 Java helps to integrate arithmetic and assignment using the operators +=, -=, /=, and *=. As a result, x += 9 increases the value of x by 9. 
 
 The ++ operator adds one to a value, while the -- operator subtracts one. These operators come in handy in Java for and while loops.
+
+### Method Parameter :
+
+```
+class MethodParameters {
+
+  public static void logRandomNumber(int x) {
+    System.out.println("This is a random number " + x + ".");
+  }
+  
+  public static void main(String[] args) {
+    logRandomNumber(100);
+ 
+  }   
+}
+
+```

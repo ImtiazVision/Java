@@ -38,4 +38,6 @@ Java provides static typing, which means that we must define the data type befor
 
 `int sampleVariable = 7;`
 
+Integer division divides two integers and returns an integer. Floating-point division is the process of converting two floating-point numbers (numbers with a decimal point) into a floating-point number.
+
 

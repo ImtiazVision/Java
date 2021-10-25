@@ -24,3 +24,10 @@ A method called System.out.println can be used to print the text "Hello, World!"
 `System.out.format("%f is an approximation of pi.", 3.14159)`
 
 The format specifier `%f` denotes the location where the parameter 3.14159 should be substituted. The letter `f` in `%` f denotes that the value will be in the form of a floating point number. For an integer, we use `%d`.
+
+### String Concatenation : 
+
+When we use the '+' operator to concatenate two variables in Java, as long as one of them is a string, both of them are turned into strings during string concatenation.
+
+`System.out.println(42 + 22 + " is my favorite charm.");`
+

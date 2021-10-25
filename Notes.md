@@ -31,3 +31,8 @@ When we use the '+' operator to concatenate two variables in Java, as long as on
 
 `System.out.println(42 + 22 + " is my favorite charm.");`
 
+Java provides static typing, which means that we must define the data type before declaring a variable.
+
+`int sampleVariable = 7;`
+
+

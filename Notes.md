@@ -130,3 +130,5 @@ class Sample {
   }
 }
 ```
+
+**The main method** : The `public static void` keyword is used to declare the method `main`. The `void` character indicates that `main` does not `return` a value.

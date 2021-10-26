@@ -112,7 +112,7 @@ class Overload {
 ```
   #### Method return values 
   
-  The type of value returned by a method must be specified in the method declaration.
+The type of value returned by a method must be specified in the method declaration. The type of the return value is indicated by the final word before the method name in the method declaration. As we can see, square returns a double, whereas isEven produces a boolean. Even if the method has no return value, the return type must be stated.
   
 ```
 class Sample {
@@ -129,5 +129,4 @@ class Sample {
     System.out.println(square(6));
   }
 }
-
 ```

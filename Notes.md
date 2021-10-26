@@ -107,6 +107,27 @@ class Overload {
     logIntNumber(42);
     logDoubleNumber(3.1415);
   }
+  }
   
+```
+  #### Method return values 
+  
+  The type of value returned by a method must be specified in the method declaration.
+  
+```
+class Sample {
+  public static double square(double a) {
+    return a * a;
+  }
+  
+  public static boolean isEven(int a) {
+    return a % 3 == 0;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println(isEven(7));
+    System.out.println(square(6));
+  }
 }
+
 ```

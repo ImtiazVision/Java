@@ -134,3 +134,5 @@ class Sample {
 **The main method** : The `public static void` keyword is used to declare the method `main`. The `void` character indicates that `main` does not `return` a value.
 
 **String** : When string data is typed in quotes in code, it is referred to as a string literal, and treated  as literal string data rather than code.
+
+**Class** : A class is a group of methods that we can use. It is a container for a custom data type that can be used to create objects of that type. 

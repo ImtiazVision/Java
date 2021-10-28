@@ -216,3 +216,22 @@ class Array {
   }
 }
 ```
+
+```
+class SampleArray {
+  public static void main(String[] args) {
+    int[] intNumbers;
+    myNumbers = new int[5];
+    
+    myNumbers[0] = 11;
+    myNumbers[1] = 12;
+    myNumbers[2] = 13;
+    myNumbers[3] = 14;
+    myNumbers[4] = 15;
+    
+    System.out.println("The array intNumbers has length of " + intNumbers.length);
+  
+  }
+
+}
+```

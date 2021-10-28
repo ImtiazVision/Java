@@ -153,3 +153,5 @@ class valueOf {
 
 }
 ```
+
+**String Object** : A class not only contains the code for methods, but it also allows you to create an object of that class. An object is a memory structure that stores values, among other things. The value of each character in the string, as well as the length of the string, are stored in a String object.

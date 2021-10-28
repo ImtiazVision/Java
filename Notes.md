@@ -187,3 +187,5 @@ class CharSample {
   }
 }
 ```
+
+Variables do not hold actual objects, but rather references to objects. A reference is loosely defined as the address of the data that stores the object in memory.

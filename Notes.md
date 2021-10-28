@@ -169,3 +169,5 @@ class SampleStringsAsObjects {
 
 }
 ```
+
+**Chat data type** : Strings can be used with the `charAt` method. `charAt` does not return a String, but rather something called a `char`. It is a primitive data type because variables of this data type are built-in and have no methods to act on them. It (`char`) represents a single text character.

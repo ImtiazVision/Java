@@ -138,3 +138,18 @@ class Sample {
 **Class** : A class is a group of methods that we can use. It is a container for a custom data type that can be used to create objects of that type. A string class defines a String data type that can be used to create string objects and provides some useful methods for Strings.
 
 **Static method** : The method `valueOf` takes only one parameter, which can be a double, int, or boolean. It then creates a string representation of that parameter and returns it.
+
+```
+class valueOf {
+  public static void main(String args[]) {
+    String myFavoriteNumber;
+    int x = 67;
+    
+    myFavoriteNumber = String.valueOf(x);
+    
+    System.out.println("My favorite number is " + myFavoriteNumber + ".");
+    
+  }
+
+}
+```

@@ -192,4 +192,4 @@ Variables do not hold actual objects, but rather references to objects. A refere
 
 Making objects of the String class immutable protects against accidental string changes. We can safely pass a string reference to a method without fear of the String being changed. The original string is not changed; rather, a new string is created based on the method call.
 
-**Array** : Arrays cannot be resized once they have been created, and we must declare the type of variables that the array will store ahead of time.
+**Arrays** : Arrays cannot be resized once they have been created, and we must declare the type of variables that the array will store ahead of time.

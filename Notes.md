@@ -193,3 +193,26 @@ Variables do not hold actual objects, but rather references to objects. A refere
 Making objects of the String class immutable protects against accidental string changes. We can safely pass a string reference to a method without fear of the String being changed. The original string is not changed; rather, a new string is created based on the method call.
 
 **Arrays** : Arrays cannot be resized once they have been created, and we must declare the type of variables that the array will store ahead of time.
+
+```
+class Array {
+  public static void main(String[] args) {
+    
+    // sample integer array
+    int[] myIntNums = {112, 151, 203, 255, 340};
+   
+    System.out.println(myIntNums[2]);
+    
+    // arrays have an instance variable that stores
+    //  the length of the array:
+    System.out.println(myIntNums.length);
+    
+    // Arrays can be of any type a variable can be:
+    String[] sampleStrings = {"Akshay", "Raj", "John"}; 
+    System.out.println("The Wizard of " + sampleStrings[0]);
+    
+    // arrays can be modified
+    sampleStrings[2] = "Wonderland";
+  }
+}
+```

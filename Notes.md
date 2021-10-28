@@ -188,4 +188,6 @@ class CharSample {
 }
 ```
 
-Variables do not hold actual objects, but rather references to objects. A reference is loosely defined as the address of the data that stores the object in memory.
+Variables do not hold actual objects, but rather references to objects. A reference is loosely defined as the address of the data that stores the object in memory. 
+
+Making objects of the String class immutable protects against accidental string changes. We can safely pass a string reference to a method without fear of the String being changed.

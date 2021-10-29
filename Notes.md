@@ -254,3 +254,13 @@ class ArraysExample {
 ## Conditional and logical operator : 
 
 A boolean variable can have one of two values: true or false. Boolean values are very useful for instructing a software to perform repeated actions or to perform actions only under certain conditions.
+
+```
+class Boolean {
+  public static void main(String[] args) {
+    boolean a = true;
+    System.out.println(a);
+    System.out.println(false);
+  }
+}
+```

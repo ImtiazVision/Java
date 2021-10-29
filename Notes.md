@@ -236,3 +236,5 @@ class SampleArray {
 }
 ```
 **The`main` method accepts a single parameter of type String array, `args`**
+
+The Arrays class in the java.util package has methods for sorting, binary searching, and printing a textual representation of an array.

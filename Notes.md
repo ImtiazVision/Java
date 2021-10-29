@@ -235,4 +235,4 @@ class SampleArray {
 
 }
 ```
-**The`main` method accepts a single parameter of type String array, `args`
+**The`main` method accepts a single parameter of type String array, `args`**

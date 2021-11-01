@@ -324,3 +324,7 @@ class ForLoop {
   }
 }
 ```
+
+### Object Oriented Programming : 
+
+A **module** is represented by an **object**, and its **definition** is represented by a **class**.

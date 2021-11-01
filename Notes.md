@@ -369,6 +369,6 @@ class Ferari { // Class name
 }
 ```
 
-### Access Modifiers 
+### Access Modifiers : 
 
-**Access modifiers** are tags that we may assign to each member to specify which portions of the program can directly access it. Using access modifiers, we may restrict access to certain data members and member functions.
+**Access modifiers** : are tags that we may assign to each member to specify which portions of the program can directly access it. Using **access modifiers**, we may restrict access to certain data members and member functions.

@@ -264,3 +264,4 @@ class Boolean {
   }
 }
 ```
+We must avoid making the following mistake: assigning a value to a variable when we wanted to test its value. The operator `=` meant to assign a value to a variable, whereas `==` meant to test that variable's value.

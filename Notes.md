@@ -267,3 +267,25 @@ class Boolean {
 We must avoid making the following mistake: assigning a value to a variable when we wanted to test its value. The operator `=` meant to assign a value to a variable, whereas `==` meant to test that variable's value.
 
 **Logical Operators** : The `and` operator is denoted by `&&`. If both operands are true, it returns true. The `or` operator `||` functions in the same way that it does in other languages. The not operator`!` comes before a boolean `true` or `false` value that we want to negate.
+
+**Conditional `If`** :
+```
+class IfSamples {
+  public static void main(String args[]) {
+    if(true) {
+      System.out.println("This is a true statement.");
+    }
+    if(false) {
+      System.out.println("This is not a true statement.");
+    }
+    
+    if(5 > 3) {
+      System.out.println("This is a true statement, too.");
+    }
+    
+    if(3 > 5) {
+      System.out.println("This is not a true statement.");
+    }
+  }
+}
+```

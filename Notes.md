@@ -330,3 +330,5 @@ class ForLoop {
 **Classes** are the fundamental components of **object-oriented** applications. They are used to construct data types that are specific to the user. A **module** is represented by an **object**, and its **definition** is represented by a **class**. 
 
 **Fields** : are also known as a class's member variables. This is due to the fact that they include information pertinent to the class's object.
+
+**Methods** : are a type of attribute that allows the class object to carry out operations using its the fields.

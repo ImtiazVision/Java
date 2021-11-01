@@ -289,3 +289,16 @@ class IfSamples {
   }
 }
 ```
+**While Loop** : 
+
+```
+class WhileLoop {
+  public static void main(String[] args) {
+    int number = 18; 
+    while(number < 200) {    
+      System.out.println(number);
+      number += 15;
+    }
+  }
+}
+```

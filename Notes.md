@@ -305,10 +305,10 @@ class WhileLoop {
 ```
 class WhileSample {
   public static void main(String[] args) {
-    int i = 7;           // initialize a variable
-    while(i < 14) {      // test a condition
+    int i = 7;           // variable initialization
+    while(i < 14) {      // a condition is being tested 
       System.out.println(i);
-      i++;               // modify the variable value
+      i++;               // change the value of the variable i.e. incrementation
     }
   }
 }

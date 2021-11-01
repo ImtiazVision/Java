@@ -302,6 +302,17 @@ class WhileLoop {
   }
 }
 ```
+```
+class WhileSample {
+  public static void main(String[] args) {
+    int i = 7;           // initialize a variable
+    while(i < 14) {      // test a condition
+      System.out.println(i);
+      i++;               // modify the variable value
+    }
+  }
+}
+```
 
 **For Loop** :
 ```

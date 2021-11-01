@@ -372,3 +372,5 @@ class Ferari { // Class name
 ### Access Modifiers : 
 
 **Access modifiers** : are tags that we may assign to each member to specify which portions of the program can directly access it. Using **access modifiers**, we may restrict access to certain data members and member functions.
+
+  - **Private** : A private member is not accessible from outside the class. The goal is to conceal it from users and other     classes. It is common practice to keep the data members secret since we do not want anyone directly           modifying our data. Using the term private, we may make members private.

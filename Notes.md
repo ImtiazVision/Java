@@ -345,3 +345,26 @@ class SampleClass { // Class name
   }
 }
 ```
+```
+//The Structure of a Class
+class Ferari { // Class name
+  
+  // Class Data members
+  int topGear;
+  int totalDoors;
+  String make;
+  String manufacturer;
+  
+  // Class Methods
+  void break(){
+    
+  }
+  void park(){
+    
+  }
+  void drive(){
+    
+  }
+  
+}
+```

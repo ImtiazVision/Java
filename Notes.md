@@ -327,4 +327,4 @@ class ForLoop {
 
 ### Object Oriented Programming : 
 
-A **module** is represented by an **object**, and its **definition** is represented by a **class**.
+Classes are the fundamental components of object-oriented applications. A **module** is represented by an **object**, and its **definition** is represented by a **class**.

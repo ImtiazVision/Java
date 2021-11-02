@@ -411,3 +411,6 @@ public class Batsman {
   }
 }
 ```
+### Get and Set methods :
+
+A **get** method obtains the value of a certain data field, whereas a **set** method sets its value.

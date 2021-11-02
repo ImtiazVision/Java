@@ -71,6 +71,8 @@ Java helps to integrate arithmetic and assignment using the operators +=, -=, /=
 
 The ++ operator adds one to a value, while the -- operator subtracts one. These operators come in handy in Java for and while loops.
 
+**Method** : A method is a collection of statements that carry out certain activities and may or may not yield a result.
+
 ### Method Parameter :
 
 ```

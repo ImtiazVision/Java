@@ -375,3 +375,12 @@ class Ferari { // Class name
 
   - **Private** : A private member is not accessible from outside the class. The goal is to conceal it from users and other     classes. It is common practice to keep the data members secret since we do not want anyone directly           modifying our data. Using the term private, we may make members private.
   - **Public** : The `public` tag specifies that any object in the same scope as the class object can directly access the members.
+  ```
+  class Batsman {
+  private int runs; // Private variable
+  
+  public int scoreRuns(){
+    return runs;  // The private variable is directly accessible over here!
+  }
+}
+  ```

@@ -416,3 +416,7 @@ public class Batsman {
 ### Get and Set methods :
 
 A **get** method obtains the value of a certain data field, whereas a **set** method sets its value.
+
+### Constructor : 
+
+**Constructor** : is used to create a class object. It is a particular method that describes the processes that are taken when a class instance is generated in the application.

@@ -384,3 +384,9 @@ class Ferari { // Class name
   }
 }
   ```
+  The `.` operator may be used to access public members of a class via a class object.
+  
+  ```
+  Batsman Kohli = new Batsman(); // Object created
+c.scoreRuns(); // Can access the runs since it's public 
+  ```

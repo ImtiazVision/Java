@@ -75,7 +75,7 @@ The ++ operator adds one to a value, while the -- operator subtracts one. These 
 
 ### Method Parameter :
 
-**Method parameters** : Method parameters make it possible to pass values to the method. The parameters are declared inside the parentheses after the method name.
+**Method Parameters** : Method parameters make it possible to pass values to the method. The parameters are declared inside the parentheses after the method name.
 
 **Return Type** : makes it possible to get the value from the method. It is declared before method name.
 

@@ -329,7 +329,7 @@ class ForLoop {
 
 **Classes** are the fundamental components of **object-oriented** applications. They are used to construct data types that are specific to the user. A **module** is represented by an **object**, and its **definition** is represented by a **class**. We can use classes to make more complex objects and applications. They're also great for compartmentalizing an application's code. Different components could be separated into classes that communicate via interfaces. These ready-to-use components will be available in future applications as well. Because it is easier to make changes in classes, the use of classes makes it easier to maintain the various parts of an application.
 
-**Fields** : are also known as a class's member variables. This is due to the fact that they include information pertinent to the class's object.
+**Fields** : are also known as a class's member variables.  A class's data members are called fields in Java. This is due to the fact that they include information pertinent to the class's object.
 
 **Methods** : are a type of attribute that allows the class object to carry out operations using its the fields.
 

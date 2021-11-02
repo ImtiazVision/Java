@@ -391,3 +391,17 @@ class Ferari { // Class name
 c.scoreRuns(); // Can access the runs since it's public 
   ```
 - **Protected** : is a one-of-a-kind  category. It's members' access level is something between `private` and `public`. The `protected` tag's principal application is in **inheritance**, which is the process of building classes from other classes. Within a  package, the `protected` data members can be accessed. They can only be referred to outside of the package using an **inherited** class.
+
+```
+package cricket;
+
+public class Batsman {
+  private int runs;
+  public int scoreRuns(){
+    return runs;  
+  }
+  protected void upperCut(){
+    System.out.println("Nice shot!")
+  }
+}
+```

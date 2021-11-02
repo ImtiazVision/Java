@@ -96,7 +96,7 @@ class MethodParameters {
 
 ### Method Overloading and Signature :
 
-**Method Overloading** : We can write two different methods with the same name in the same class as long as the parameters are different. The **method signature** is the combination of a method's name and the types of its parameters listed in sequence. Here's an illustration:
+**Method Overloading** : is the process of making a method do different actions depending on the type of its parameters. We can write two different methods with the same name in the same class as long as the parameters are different. The **method signature** is the combination of a method's name and the types of its parameters listed in sequence. Here's an illustration:
 
 ```
 class Overload {

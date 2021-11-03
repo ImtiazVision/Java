@@ -420,3 +420,5 @@ A **get** method obtains the value of a certain data field, whereas a **set** me
 ### Constructor : 
 
 **Constructor** : is used to create a class object. It is a particular method that describes the processes that are taken when a class instance is generated in the application. The name of a constructor must be the same as the name of its class.
+
+- **Default Constructor** : We define the default values for the class's data members. As a result, the constructor produces an object with the data members set to their default values.

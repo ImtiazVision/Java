@@ -428,5 +428,5 @@ A **get** method obtains the value of a certain data field, whereas a **set** me
 Every class has a `this` reference variable. It refers to the class object as a whole. When we have an argument with the same name as a data member, we utilize this  `this.refName` to indicate that we are attempting to access the class's `refName` variable. We utilize the `this` keyword to refer to a constructor when calling it from another constructor.
 
 **Data Hiding** : is the notion of concealing a class's inner workings and just providing an interface through which the outside world may interact with the class without understanding what's going on inside. Data hiding is made up of two major components : 
-  - Encapsulation
+  - **Encapsulation** : refers to the binding of data and the methods for manipulating that data into a single unit (class).
   - Abstraction

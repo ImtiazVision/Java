@@ -430,3 +430,5 @@ Every class has a `this` reference variable. It refers to the class object as a 
 **Data Hiding** : is the notion of concealing a class's inner workings and just providing an interface through which the outside world may interact with the class without understanding what's going on inside. Data hiding is made up of two major components : 
   - **Encapsulation** : refers to the binding of data and the methods for manipulating that data into a single unit (class).
   - Abstraction
+
+**Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class.

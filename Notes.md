@@ -432,3 +432,10 @@ Every class has a `this` reference variable. It refers to the class object as a 
   - Abstraction
 
 **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
+
+There are two sorts of classes: 
+
+1. SuperClass (Mother/ Base Class): This class permits non-private members of one class to be reused by another.
+
+
+2. SubClass (Child/ Derived Class): This class inherits from the superclass.

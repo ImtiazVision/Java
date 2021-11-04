@@ -438,4 +438,4 @@ There are two sorts of classes:
 1. SuperClass (Mother/ Base Class): This class permits non-private members of one class to be reused by another.
 
 
-2. SubClass (Child/ Derived Class): This class inherits from the superclass. A child class shares all of the mother class's non-private attributes.
+2. SubClass (Child/ Derived Class): This class inherits from the superclass. A child class shares all of the mother class's non-private attributes. All non-private members of a child class are defined in the child class. All non-private members of a child class are defined in the mother class. 

@@ -431,4 +431,4 @@ Every class has a `this` reference variable. It refers to the class object as a 
   - **Encapsulation** : refers to the binding of data and the methods for manipulating that data into a single unit (class).
   - Abstraction
 
-**Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class.
+**Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. 

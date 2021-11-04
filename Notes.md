@@ -1,4 +1,4 @@
-## Java has the following characteristics :
+<h2 align="center">Java has the following characteristics : </h2>
 
 - It is easy to use and portable: Memory management with pointers is not permitted.
 - It is not dependent on the host platform.

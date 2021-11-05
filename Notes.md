@@ -441,3 +441,7 @@ There are two sorts of classes:
 2. SubClass (Child/ Derived Class): This class inherits from the superclass. A child class shares all of the mother class's non-private attributes. All non-private members of a child class are defined in the child class. All non-private members of a child class are defined in the mother class. 
 
 To implement inheritance, we may utilize the term extends. At any one moment, a class may only extend from one other class, and it cannot extend itself.
+
+### Advantage of using Inheritance : 
+
+Inheritance allows us to eliminate redundant coding, which saves us time and effort.

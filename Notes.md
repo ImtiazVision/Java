@@ -445,3 +445,31 @@ To implement inheritance, we may utilize the term extends. At any one moment, a 
 ### Advantage of using Inheritance : 
 
 Inheritance allows us to eliminate redundant coding, which saves us time and effort. It also allows us to reuse that code in the future if necessary. We can extend the base class logic to reflect the derived class's business logic. This is a simple technique to upgrade or improve individual aspects of a product without compromising the main characteristics. If necessary, we may hide the data by making it private within the base class.
+
+### Example 
+
+```
+// Base Class
+class Batsman {
+
+  // Private Data Members
+  private String runs;
+  private String sixes;
+
+  public Batsman() { // Default Constructors
+    runs = "125";
+    sixes = "5";
+  }
+
+  // Getter Function
+  public String scoreRuns() {
+    return runs;
+  }
+
+  // Getter Function
+  public String checkSixes() {
+    return sixes;
+  }
+  
+}
+```

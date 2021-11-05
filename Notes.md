@@ -476,4 +476,4 @@ class Batsman {
 
 ## Polymorphism :
 
-**Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms).
+**Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on.

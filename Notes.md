@@ -473,3 +473,7 @@ class Batsman {
   
 }
 ```
+
+## Polymorphism :
+
+**Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms).

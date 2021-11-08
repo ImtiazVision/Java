@@ -481,7 +481,7 @@ class Batsman {
 
 ## Method Overriding : 
 
-**Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding. It allows a child class to implement its own customized method that is already offered by the parent class. In other words, it allows a child class to give a more detailed implementation of a method that already exists in its parent class.  It occurs during the execution of the program. One of the cool things about this process is that without altering the parent class methods, the derived classes can provide their own specialized implementations for inherited methods. Because the data binding is done at runtime, performance is mediocre.
+**Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding. It is referred to as runtime polymorphism. It allows a child class to implement its own customized method that is already offered by the parent class. In other words, it allows a child class to give a more detailed implementation of a method that already exists in its parent class.  It occurs during the execution of the program. One of the cool things about this process is that without altering the parent class methods, the derived classes can provide their own specialized implementations for inherited methods. Because the data binding is done at runtime, performance is mediocre.
 
 ```
 class Batsman{

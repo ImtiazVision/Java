@@ -477,3 +477,8 @@ class Batsman {
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 
+
+
+## Method Overriding : 
+
+**Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding.

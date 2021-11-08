@@ -503,4 +503,4 @@ class Kohli extends Batsman{
 
 ## Method Overloading : 
 
-**Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading.
+**Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading. It is often referred to as compile-time polymorphism.

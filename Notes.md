@@ -504,3 +504,18 @@ class Kohli extends Batsman{
 ## Method Overloading : 
 
 **Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading. It is often referred to as compile-time polymorphism.
+
+```
+class Batsman{
+  public void scoreRuns(){ 
+    System.out.println("Nice cover drive to score 2 runs");
+  }
+ 
+    //overloading method
+    // we have different parameters even though the method name is the same 
+    public void scoreRuns(int runs){
+    	for(int i=0; i<runs; i++)
+    		System.out.println("Keep on scoring those runs!!!");
+    }
+}
+```

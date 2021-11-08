@@ -481,4 +481,4 @@ class Batsman {
 
 ## Method Overriding : 
 
-**Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding.
+**Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding. It allows a child class to implement its own customized method that is already offered by the parent class.

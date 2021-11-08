@@ -478,6 +478,10 @@ class Batsman {
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 
 
+## Dynamic Polymorphism : 
+
+**Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters.
+
 
 ## Method Overriding : 
 

@@ -480,7 +480,7 @@ class Batsman {
 
 ## Dynamic Polymorphism : 
 
-**Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters.
+**Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters. Runtime polymorphism is another name for it.
 
 
 ## Method Overriding : 

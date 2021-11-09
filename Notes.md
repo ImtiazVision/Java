@@ -429,7 +429,7 @@ Every class has a `this` reference variable. It refers to the class object as a 
 
 **Data Hiding** : is the notion of concealing a class's inner workings and just providing an interface through which the outside world may interact with the class without understanding what's going on inside. Data hiding is made up of two major components : 
   - **Encapsulation** : refers to the binding of data and the methods for manipulating that data into a single unit (class).
-  - Abstraction
+  - **Abstraction** : In Object-Oriented Programming, abstraction refers to just presenting the user the important characteristics of an object while concealing the underlying details to decrease complexity.
 
 **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 
@@ -486,9 +486,9 @@ class Batsman {
 
 **Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program. In static polymorphism, method overloading is utilized.
 
-## Abstraction : 
+<!-- ## Abstraction : 
 
-**Abstraction** : In Object-Oriented Programming, abstraction refers to just presenting the user the important characteristics of an object while concealing the underlying details to decrease complexity.
+**Abstraction** : In Object-Oriented Programming, abstraction refers to just presenting the user the important characteristics of an object while concealing the underlying details to decrease complexity. -->
 
 
 ## Method Overriding : 

@@ -482,6 +482,10 @@ class Batsman {
 
 **Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters. Runtime polymorphism is another name for it.
 
+## Static Polymorphism : 
+
+**Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program.
+
 
 ## Method Overriding : 
 

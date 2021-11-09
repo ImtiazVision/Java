@@ -486,6 +486,10 @@ class Batsman {
 
 **Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program. In static polymorphism, method overloading is utilized.
 
+## Abstraction : 
+
+**Abstraction** : In Object-Oriented Programming, abstraction refers to just presenting the user the important characteristics of an object while concealing the underlying details to decrease complexity.
+
 
 ## Method Overriding : 
 

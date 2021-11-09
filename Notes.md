@@ -484,7 +484,7 @@ class Batsman {
 
 ## Static Polymorphism : 
 
-**Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program.
+**Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program. In static polymorphism, method overloading is utilized.
 
 
 ## Method Overriding : 

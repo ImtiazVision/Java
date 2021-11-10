@@ -92,6 +92,7 @@ class MethodParameters {
   }   
 }
 ```
+
 **Code Walkthrough** : Parameters are the method's local variables. The code int x introduces a new int variable, x, in the definition of logMyNumber(int x). When the method is invoked, the value 100 is transferred into the variable x, and the logMyNumber function is executed.
 
 ### Method Overloading and Signature :
@@ -434,7 +435,7 @@ Every class has a `this` reference variable. It refers to the class object as a 
 
       - **Abstract Method** : An abstract method is one that has the term `abstract` in its declaration. Only an abstract class or an interface can declare an abstract method. Because non-abstract classes cannot have abstract methods, a class must be designated as an abstract class in order to have any abstract method in its implementation. Moreover, an abstract method cannot be made private since it must be implemented in another class. An example would be something like this :  `public abstract void methodName(parameter(s));` .
      
-      - **Abstract Class** : An abstract class is one whose declaration includes the word `abstract`.
+      - **Abstract Class** : An abstract class is one whose declaration includes the word `abstract`. An abstract class must be inherited from in order to be used. It cannot be instantiated, that is, an object of an abstract class cannot be created.
 
   - **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 

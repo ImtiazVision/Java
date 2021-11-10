@@ -437,6 +437,66 @@ Every class has a `this` reference variable. It refers to the class object as a 
      
       - **Abstract Class** : An abstract class is one whose declaration includes the word `abstract`. An abstract class must be inherited from in order to be used. All abstract methods specified in the parent abstract class must be implemented by the class that inherits from it. It cannot be instantiated, that is, an object of an abstract class cannot be created. All abstract methods specified in the parent abstract class must be implemented by the class that inherits from it.
 
+      ```
+      abstract class Batsman {
+
+        public abstract void scoreRuns();
+
+        public void drive() {
+          System.out.println(getClass().getSimpleName()+" nice driving shot");
+          //getClass().getSimpleName() is an inbuilt functionality of Java
+          //to get the class name from which the method is being called
+        }
+  
+      }
+
+      class Kohli extends Batsman {
+
+         @Override
+         public void scoreRuns() {
+         System.out.println("Scored 2 runs");
+        }
+  
+      }
+
+      class Kane extends Batsman {
+
+         @Override
+          public void scoreRuns() {
+          System.out.println("Scored 4 runs");
+          }
+  
+      } 
+
+      class Babar extends Batsman {
+
+        @Override
+        public void scoreRuns() {
+        System.out.println("Scored 6 runs");
+      }
+    }
+
+      class Main {
+  
+        public static void main(String args[]) {
+          // Creating the objects
+          Batsman kohli = new Kohli();  
+          Batsman kane = new Kane();
+          Batsman babar = new Babar();
+
+          kohli.scoreRuns();    // Calling methods from Kohli
+          kohli.drive();
+
+          kane.scoreRuns();    // Calling methods from Kane
+          kane.drive();
+
+          babar.scoreRuns();  // Calling methods from Babar
+          babar.drive();
+        }
+  
+      }
+      ```
+
   - **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 
 There are two sorts of classes: 

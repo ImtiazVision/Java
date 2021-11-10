@@ -542,7 +542,7 @@ class Batsman {
 
 ## Interface :
 
-**Interface** : An interface is similar to a class in that it describes the behavior that a class should have.
+**Interface** : An interface is similar to a class in that it describes the behavior that a class should have. It is a contract that a class must meet while implementing an interface.
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

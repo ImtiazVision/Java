@@ -432,6 +432,8 @@ Every class has a `this` reference variable. It refers to the class object as a 
   - **Encapsulation** : refers to the binding of data and the methods for manipulating that data into a single unit (class).
   - **Abstraction** : In Object-Oriented Programming, abstraction refers to just presenting the user the important characteristics of an object while concealing the underlying details to decrease complexity. For example, a user can only engage with the application's limited functionalities and is uninformed of the application's implementation specifics or development process. The functioning of an application is usually all that matters to users. An admin, on the other hand, has a lot more power. The administrator may keep track of the users' activities, understand how the app was built, and add new features by deploying them to the app. Abstraction focuses on what the program can do rather than how it will be implemented.
 
+  **Abstract Method** : An abstract method is one that has the term `abstract` in its declaration.
+
 **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 
 There are two sorts of classes: 

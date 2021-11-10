@@ -5,7 +5,7 @@
 - **It is Secure and Dynamic**: It is designed to securely run code from distant sources.
 - It has language support as well as networking libraries.
 - **It is Robust**: Java has its own powerful memory management system. This helps to eliminate errors by checking the code during compilation and execution.
-- **Java is Multithreaded**: it supports numerous thread executions (i.e. lightweight processes), as well as a set of synchronization primitives.
+- **Java is Multi-threaded**: it supports numerous thread executions (i.e. lightweight processes), as well as a set of synchronization primitives.
 
 **Java** is a widely used programming language for embedded system development, backend systems, and APIs. It's referred to as an object-oriented programming language. Some of Java's core concepts include **Recursion** and **Parallelism**.
 
@@ -107,7 +107,7 @@ class Overload {
   }
   
   public static void logDoubleNumber(double x) {
-    System.out.println("Thsi is a double " + x);
+    System.out.println("This is a double " + x);
   }
   
   public static void main(String[] args) {
@@ -317,7 +317,7 @@ class WhileSample {
     int i = 7;           // variable initialization
     while(i < 14) {      // a condition is being tested 
       System.out.println(i);
-      i++;               // change the value of the variable i.e. incrementation
+      i++;               // change the value of the variable i.e. increment
     }
   }
 }
@@ -356,7 +356,7 @@ class SampleClass { // Class name
 ```
 ```
 //The Structure of a Class
-class Ferari { // Class name
+class Ferrari { // Class name
   
   // Class Data members
   int topGear;

@@ -550,7 +550,7 @@ public static final variable(s),
 abstract method(s),
 default method(s)`.
 
-An interface cannot contain constructor(s). A class may implement an unlimited number of interfaces.
+An interface cannot contain constructor(s). A class may implement an unlimited number of interfaces. An interface cannot be made private or protected, but it can 'extend' from another.
 
 ## Polymorphism :
 

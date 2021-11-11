@@ -633,6 +633,8 @@ public interface MoneyTransfer {
 }
 ```
 
+### Static Interface Method :
+
 **Static Interface Method** : The static methods in interfaces are comparable to default methods, with the exception that we can't override them. If we want to give an implementation in our interface but don't want the implementing class to override it, we can declare the method static.
 
 ## Polymorphism :

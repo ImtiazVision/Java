@@ -620,7 +620,18 @@ class Main {
 
 ### Default Interface Method :
 
-**Default Method** : Methods with a body are referred to as default methods. The most common application of default methods in interfaces is to extend the functionality of a particular type without breaking down the implementing classes.
+**Default Method** : Methods with a body are referred to as default methods. The most common application of default methods in interfaces is to extend the functionality of a particular type without breaking down the implementing classes. Example :
+
+```
+public interface MoneyTransfer {
+
+    void sendMoney();
+
+    default void quickSend() {
+        System.out.println("Sending money in a blitz!!!");
+    }
+}
+```
 
 ## Polymorphism :
 

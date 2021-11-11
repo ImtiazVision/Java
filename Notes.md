@@ -618,6 +618,10 @@ class Main {
 
 - It enable us to attain complete abstraction.
 
+### Default Interface Method :
+
+**Default Method** : Methods with a body are referred to as default methods. The most common application of default methods in interfaces is to extend the functionality of a particular type without breaking down the implementing classes.
+
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

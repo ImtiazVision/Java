@@ -552,6 +552,62 @@ default method(s)`.
 
 An interface cannot contain constructor(s). A class may implement an unlimited number of interfaces. An interface cannot be made private or protected, but it can 'extend' from another. While a class employs the keyword `implements` to use an interface, an interface employs the keyword `extends` to use/employ another interface.
 
+```
+// Base class Batsman
+class Batsman {   
+
+  // Common trait of all batsmans so implemented in the base class
+  public void score() { 
+    System.out.println(getClass().getSimpleName() + " is scoring runs!");
+  }
+  
+}// End of Batsman class
+
+interface CanScoreRuns {
+
+  // The method is by default abstract and public
+  void scoreRuns();   
+  
+}// End of CanScoreRuns interface
+
+class Kohli extends Batsman implements scoreRuns { // Kohli is extending from Batsman and implementing scoreRuns
+
+  @Override               // If we don't implement the scoreRuns() we will get an error!
+  public void scoreRuns() { // Overriding the method of CanScoreRuns interface
+    System.out.println("Kohli canScoreRuns!");
+  }
+} // End of Kohli class
+
+class Babar extends Batsman { // Babar extending Batsman
+  
+  // Babar can hit nice shots for 4s so implementing hitFour function just for him
+  public void hitFour() {
+    System.out.println("Babar is hitting 4 runs!");
+  }
+  
+} // End of Babar class
+
+class Main {
+
+  public static void main(String[] args) {
+
+    Kohli kohli = new Kohli();   // Creating the Kohli object
+    Babar babar = new Babar(); // Creating the Babar object
+
+    parrot.score();
+    parrot.scoreRuns();
+
+    System.out.println();    // Just creating a newline on console
+
+    babar.score();
+    babar.hitFour();
+    
+  } // End of main()
+  
+} // End of Main class
+
+```
+
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

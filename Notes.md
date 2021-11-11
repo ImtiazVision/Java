@@ -608,6 +608,16 @@ class Main {
 
 ```
 
+### Benefits of using Interfaces :
+
+- Multiple inheritance may be accomplished through the usage of interfaces.
+
+- Interfaces can be used in an application to create loose coupling. This means that a modification in one class has no effect on how the other class is implemented.
+
+- It may be used to break up complicated designs and clear dependencies between objects.
+
+- It enable us to attain complete abstraction.
+
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

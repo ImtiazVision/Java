@@ -633,6 +633,8 @@ public interface MoneyTransfer {
 }
 ```
 
+**Static Interface Method** : The static methods in interfaces are comparable to default methods, with the exception that we can't override them. If we want to give an implementation in our interface but don't want the implementing class to override it, we can declare the method static.
+
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

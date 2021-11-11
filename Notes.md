@@ -550,6 +550,8 @@ public static final variable(s),
 abstract method(s),
 default method(s)`.
 
+An interface cannot contain constructor(s).
+
 ## Polymorphism :
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes. 

@@ -539,6 +539,9 @@ class Batsman {
   
 }
 ```
+### Multiple Inheritance :
+
+**Multiple Inheritance** :  occurs when a class is derived from more than one base class, i.e. when a class has more than one direct parent class.
 
 ## Interface :
 

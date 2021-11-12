@@ -497,7 +497,7 @@ Every class has a `this` reference variable. It refers to the class object as a 
       }
       ```
 
-  - **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone IS A cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
+  - **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone `IS A` cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 
 There are two sorts of classes: 
 
@@ -506,7 +506,7 @@ There are two sorts of classes:
 
 2. SubClass (Child/ Derived Class): This class inherits from the superclass. A child class shares all of the mother class's non-private attributes. All non-private members of a child class are defined in the child class. All non-private members of a child class are defined in the mother class. 
 
-To implement inheritance, we may utilize the term extends. At any one moment, a class may only extend from one other class, and it cannot extend itself.
+To implement inheritance, we may utilize the term `extends`. At any one moment, a class may only extend from one other class, and it cannot extend itself.
 
 ### Advantage of using Inheritance : 
 
@@ -610,6 +610,8 @@ class Main {
 } // End of Main class
 
 ```
+
+A class may implement several interfaces, and an interface may extend from multiple interfaces.
 
 ### Benefits of using Interfaces :
 

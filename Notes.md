@@ -541,7 +541,7 @@ class Batsman {
 ```
 ### Multiple Inheritance :
 
-**Multiple Inheritance** :  occurs when a class is derived from more than one base class, i.e. when a class has more than one direct parent class.
+**Multiple Inheritance** :  occurs when a class is derived from more than one base class, i.e. when a class has more than one direct parent class. A good example would be an allrounder player in cricket, such as Shakib, who is both a batsman and a bowler.
 
 ## Interface :
 

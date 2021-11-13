@@ -702,4 +702,4 @@ class Batsman{
 
 ### Relationship between classes :
 
-**Aggregation** :In aggregation, the `has-A` model is utilized. This establishes a parent-child connection between the two classes, with one owning the object of the other. The lifespan of the acquired object is independent of the owner's lifespan in aggregation. 
+**Aggregation** :In aggregation, the `has-A` model is utilized. This establishes a parent-child connection between the two classes, with one owning the object of the other. The lifespan of the acquired object is independent of the owner's lifespan in aggregation. By referring to the child object, the parent simply has a reference to the child, which removes the child's reliance on parent object.

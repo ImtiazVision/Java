@@ -709,3 +709,11 @@ class Batsman{
 ## Recursion : 
 
 **Recursion** : When a method recurses, it calls itself again and again until it hits a defined stopping condition. The procedure described above is known as a **recursive** method.
+
+### Advantages of using Recursion : 
+
+- For jobs that may be specified in terms of related subtasks, a recursive technique is most helpful.
+
+- When compared to iterative code, recursive code takes less time to write.
+
+- When loops are compiled or interpreted, they are usually turned to recursive methods.

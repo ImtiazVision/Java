@@ -722,5 +722,5 @@ class Batsman{
 
 Each recursive technique is made up of 2 components:
 
-1. The base case is when the call to the method ends and no more recursive calls are made.
-2. The recursive case occurs when a method calls itself again and over until it reaches the base case.
+1. The **base case** is when the call to the method ends and no more recursive calls are made.
+2. The **recursive case** occurs when a method calls itself again and over until it reaches the base case.

@@ -727,4 +727,4 @@ Each recursive technique is made up of 2 components:
 
 ### Factorial : 
 
-**Factorial** : A factorial is the product of an integer and all the positive integers that come after it. It is represented by the symbol: `!`.
+**Factorial** : A factorial is the product of an integer and all the positive integers that come after it. It is represented by the symbol: `!`. For example, Factorial of 5 (i.e. `5!`) is : 5 x 4 x 3 x 2 x 1 = 120 .  

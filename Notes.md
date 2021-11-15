@@ -708,7 +708,7 @@ class Batsman{
 
 ## Recursion : 
 
-**Recursion** : When a method recurses, it calls itself again and again until it hits a defined stopping condition. The procedure described above is known as a **recursive** method.
+**Recursion** : When a method recurses, it calls itself again and again until it hits a defined stopping condition. The procedure described above is known as a **recursive** method. Because recursion is always used on a method, it becomes a process.
 
 ### Advantages of using Recursion : 
 

@@ -717,3 +717,10 @@ class Batsman{
 - When compared to iterative code, recursive code takes less time to write.
 
 - When loops are compiled or interpreted, they are usually turned to recursive methods.
+
+### Types of Recursive Method : 
+
+Each recursive technique is made up of 2 components:
+
+1. The base case is when the call to the method ends and no more recursive calls are made.
+2. The recursive case occurs when a method calls itself again and over until it reaches the base case.

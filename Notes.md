@@ -735,4 +735,4 @@ Each recursive technique is made up of 2 components:
 
 ### Iteration : 
 
-**Iteration** : Iterative code is a piece of code that loops. In other words, the same code is duplicated repeatedly. It is a looped section of the code. To put it another way, the same code is repeated again. It refers to a situation in which loops are used to repeat some statements until a condition is met.
+**Iteration** : Iterative code is a piece of code that loops. In other words, the same code is duplicated repeatedly. It is a looped section of the code. To put it another way, the same code is repeated again. It refers to a situation in which loops are used to repeat some statements until a condition is met. It is a sequence of instructions that are called on repeatedly and is applied to variables.

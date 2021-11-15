@@ -732,3 +732,7 @@ Each recursive technique is made up of 2 components:
 **Indirect recursion** (or mutual recursion) : happens when one method calls another, causing the original method to be called again.
 
 **Direct recursion** : When a method calls itself within its own body, this is known as direct recursion.
+
+### Iteration : 
+
+**Iteration** : Iterative code is a piece of code that loops. In other words, the same code is duplicated repeatedly. It is a looped section of the code. To put it another way, the same code is repeated again.

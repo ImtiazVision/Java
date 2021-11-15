@@ -714,7 +714,7 @@ class Batsman{
 
 - For jobs that may be specified in terms of related subtasks, a recursive technique is most helpful.
 
-- When compared to iterative code, recursive code takes less time to write.
+- When compared to iterative code, recursive code takes less time to write. We just need to declare the base case and recursive case for a recursive method, therefore the code is simpler and shorter than iterative code.
 
 - When loops are compiled or interpreted, they are usually turned to recursive methods.
 

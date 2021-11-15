@@ -724,3 +724,7 @@ Each recursive technique is made up of 2 components:
 
 1. The **base case** is when the call to the method ends and no more recursive calls are made.
 2. The **recursive case** occurs when a method calls itself again and over until it reaches the base case.
+
+### Factorial : 
+
+**Factorial** : A factorial is the product of an integer and all the positive integers that come after it. It is represented by the symbol: `!`.

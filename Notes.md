@@ -758,3 +758,7 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 ### Depth First Search (DFS) :
 
 **Depth First Search** : A method for traversing and searching all nodes in a graph is called **Depth First Search** . We can use the technique to see if two nodes, node x and node y, have a path connecting them.
+
+### Topological Sort :
+
+**Topological Sort** : A topological sort is a linear ordering of vertices in a directed acyclic graph such that for every directed edge uv, vertex u comes before v in the ordering.In a directed acyclic graph, topological sort produces a linear ordering of vertices.

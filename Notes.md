@@ -559,7 +559,7 @@ An interface cannot contain constructor(s). A class may implement an unlimited n
 // Base class Batsman
 class Batsman {   
 
-  // Common trait of all batsmans so implemented in the base class
+  // Common trait of all batsman's so implemented in the base class
   public void score() { 
     System.out.println(getClass().getSimpleName() + " is scoring runs!");
   }

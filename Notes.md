@@ -762,3 +762,7 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 ### Topological Sort :
 
 **Topological Sort** : A topological sort is a linear ordering of vertices in a directed acyclic graph such that for every directed edge uv, vertex u comes before v in the ordering.In a directed acyclic graph, topological sort produces a linear ordering of vertices.
+
+### Program : 
+
+**Program** : A program is a sequence of instructions that are executed by a computer. It is a sequence of statements that are executed by a computers operating system to accomplish a specific task. 

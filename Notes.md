@@ -742,4 +742,6 @@ Each recursive technique is made up of 2 components:
 
 ### Fibonacci Sequence : 
 
-**Fibonacci Sequence** : The Fibonacci Sequence is a well-known mathematical formula in which each number in the sequence equals the sum of the two numbers before it.
+**Fibonacci Sequence** : The Fibonacci Sequence is a well-known mathematical formula in which each number in the sequence equals the sum of the two numbers before it. 
+
+Formula : `Fn =F=Fn-2+F+Fn-1`

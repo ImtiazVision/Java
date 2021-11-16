@@ -749,3 +749,7 @@ Formula : `Fn = Fn-2 + Fn-1`
 ### Permutation :
 
 **Permutation** : The various ways in which a group of things can be organized are known as permutations. It is a combination of all or some of the items in a set. The words 'cat' and 'act,' for example, are two different permutations (or arrangements) of a similar three-letter word.
+
+##  Binary Search Tree (BST) : 
+
+A **Binary Search Tree (BST)** is a hierarchical data structure made up of vertices that are connected by edges. The left node's value is lower than the parent node's value, and the right node's value is higher than the parent node's value.

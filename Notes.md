@@ -745,3 +745,7 @@ Each recursive technique is made up of 2 components:
 **Fibonacci Sequence** : The Fibonacci Sequence is a well-known mathematical formula in which each number in the sequence equals the sum of the two numbers before it. 
 
 Formula : `Fn = Fn-2 + Fn-1`
+
+### Permutation :
+
+**Permutation** : The various ways in which a group of things can be organized are known as permutations. It is a combination of all or some of the items in a set. The words 'cat' and 'act,' for example, are two different permutations (or arrangements) of a similar three-letter word.

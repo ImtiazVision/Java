@@ -769,3 +769,7 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 ### Thread :
 
 **Thread** : A thread is a lightweight process that can be used to execute a program. A thread is a process's smallest unit of execution. A thread merely executes instructions in a sequential order. A process may include numerous threads that are active at the same time.
+
+### Concurrency :
+
+**Concurrency** : Concurrency is the ability of multiple threads to execute simultaneously. Concurrency is a way to improve the performance of a computer system by allowing multiple threads to execute simultaneously. A concurrent program is one that can be divided into constituent parts, each of which can be performed out of order or in partial order without impacting the ultimate result. A concurrent system is one that may run numerous unique programs or more than one independent unit of the same program in overlapping time periods.

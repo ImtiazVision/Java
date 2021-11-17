@@ -769,7 +769,7 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 
 ### Process :
 
-**Process** :  A process is a running program. A process is a runtime execution environment made up of instructions, user data, and system data segments, as well as a variety of additional resources including CPU, memory, address space, disk, and network I/O. 
+**Process** :  A process is a running program. A process is a runtime execution environment made up of instructions, user data, and system data segments, as well as a variety of additional resources including CPU, memory, address space, disk, and network I/O. A program and a process are frequently used interchangeably, however the objective is usually to refer to a process.
 
 ### Thread :
 

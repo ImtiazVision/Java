@@ -413,10 +413,9 @@ Batsman Kohli = new Batsman(); // Object created
 c.scoreRuns(); // Can access the runs since it's public
 ```
 
-- **Protected** : is a one-of-a-kind  category. It's members' access level is something between `private` and `public`. The `protected` tag's principal application is in **inheritance**, which is the process of building classes from other classes. Within a  package, the `protected` data members can be accessed. They can only be referred to outside of the package using an **inherited** class.
+- **Protected** : is a one-of-a-kind  category. It's members' access level is something between `private` and `public`. The `protected` tag's principal application is in **inheritance**, which is the process of building classes from other classes. Within a  package, the `protected` data members can be accessed. They can only be referred to outside of the package using an **inherited** class. An example is given below 👇
 
 ```
-
 package cricket;
 
 public class Batsman {

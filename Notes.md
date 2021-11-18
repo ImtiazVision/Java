@@ -810,3 +810,4 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 
 **Concurrency and Parallelism Coffee Machine Analogy** : Single-processor concurrency is analogous to alternately serving customers from the two lines but with a single coffee machine, whereas parallelism is analogous to servicing each customer queue with its own coffee machine. 
 
+**Preemptive Multitasking** : The operating system preempts a program to allow another waiting job to execute on the CPU in **preemptive multitasking**. Programs or threads have no control over how long or when they can use the CPU. The scheduler in the operating system determines which thread or application gets to utilize the CPU next and for how long.

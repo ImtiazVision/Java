@@ -807,3 +807,6 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 A **concurrent** system does **not** have to be **parallel**, but a parallel system is. A system can also be both concurrent and parallel, such as a multitasking operating system running on a multicore processor.
 
 Concurrency is the ability to handle many tasks at the same time. Parallelism is the practice of performing many tasks at the same time.
+
+**Concurrency and Parallelism Coffee Machine Analogy** : Single-processor concurrency is analogous to alternately serving customers from the two lines but with a single coffee machine, whereas parallelism is analogous to servicing each customer queue with its own coffee machine. 
+

@@ -395,26 +395,23 @@ class Ferrari { // Class name
 - **Private** : A private member is not accessible from outside the class. The goal is to conceal it from users and other     classes. It is common practice to keep the data members secret since we do not want anyone directly           modifying our data. Using the term private, we may make members private.
 - **Public** : The `public` tag specifies that any object in the same scope as the class object can directly access the members.
 
-  ```
+```
   class Batsman {
   private int runs; // Private variable
   
   public int scoreRuns(){
     return runs;  // The private variable is directly accessible over here!
   }
-
 }
+```
 
-  ```
+The `.` operator may be used to access public members of a class via a class object.
 
-  The `.` operator may be used to access public members of a class via a class object.
-  
-  ```
 
-  Batsman Kohli = new Batsman(); // Object created
+```  
+Batsman Kohli = new Batsman(); // Object created
 c.scoreRuns(); // Can access the runs since it's public
-
-  ```
+```
 
 - **Protected** : is a one-of-a-kind  category. It's members' access level is something between `private` and `public`. The `protected` tag's principal application is in **inheritance**, which is the process of building classes from other classes. Within a  package, the `protected` data members can be accessed. They can only be referred to outside of the package using an **inherited** class.
 

@@ -671,11 +671,11 @@ public interface MoneyTransfer {
 
 **Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters. Runtime polymorphism is another name for it.
 
-## Static Polymorphism
+## Static Polymorphism :
 
 **Static polymorphism**, often known as compile time polymorphism, is a type of polymorphism that occurs during the compilation process of a program. In static polymorphism, method overloading is utilized.
 
-## Method Overriding
+## Method Overriding :
 
 **Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding. It is referred to as runtime polymorphism. It allows a child class to implement its own customized method that is already offered by the parent class. In other words, it allows a child class to give a more detailed implementation of a method that already exists in its parent class.  It occurs during the execution of the program. One of the cool things about this process is that without altering the parent class methods, the derived classes can provide their own specialized implementations for inherited methods. At least one method with the same name must exist in both the parent and child classes. Moreover, the same kind and amount of parameters must be included in both the child and parent classes. Because the data binding is done at runtime, performance is mediocre. For example, when we click the submit button for an assignment, it is submitted, but we have no idea how the underlying stuff works once we hit the button.
 
@@ -697,9 +697,9 @@ class Kohli extends Batsman{
 }
 ```
 
-## Method Overloading
+## Method Overloading :
 
-**Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading. It is often referred to as compile-time polymorphism.
+**Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading. It is often referred to as compile-time polymorphism. Example : 
 
 ```
 class Batsman{
@@ -717,17 +717,17 @@ class Batsman{
 
 ```
 
-### Relationship between classes
+### Relationship between classes : 
 
 **Aggregation** : In aggregation, the `has-A` model is utilized. This establishes a parent-child connection between the two classes, with one owning the object of the other. The lifespan of the acquired object is independent of the owner's lifespan in aggregation. By referring to the child object, the parent simply has a reference to the child, which removes the child's reliance on parent object.
 
 **Composition** : The technique of generating additional class objects in our class is known as **composition**. In this case, the owner is the class that produces the other class's object and is responsible for the object's lifetime. Unlike aggregation, the lifespan of an owned thing is determined by the owner's lifespan in **composition**.
 
-## Recursion
+## Recursion :
 
 **Recursion** : When a method recurses, it calls itself again and again until it hits a defined stopping condition. The procedure described above is known as a **recursive** method. Because recursion is always used on a method, it becomes a process. For each recursive call, recursion uses the stack to record variable changes.
 
-### Advantages of using Recursion
+### Advantages of using Recursion : 
 
 - For jobs that may be specified in terms of related subtasks, a recursive technique is most helpful.
 
@@ -735,18 +735,18 @@ class Batsman{
 
 - When loops are compiled or interpreted, they are usually turned to recursive methods.
 
-### Disadvantages of using Recursion
+### Disadvantages of using Recursion : 
 
 - Recursive code is slower than iterative code. It must not only execute the program but also access the stack memory.
 
-### Types of Recursive Method
+### Types of Recursive Method : 
 
 Each recursive technique is made up of 2 components:
 
 1. The **base case** is when the call to the method ends and no more recursive calls are made.
 2. The **recursive case** occurs when a method calls itself again and over until it reaches the base case.
 
-### Factorial
+### Factorial : 
 
 **Factorial** : A factorial is the product of an integer and all the positive integers that come after it. It is represented by the symbol: `!` . For example, Factorial of 5 (i.e. `5!`) is : `5 x 4 x 3 x 2 x 1 = 120` .  
 
@@ -754,48 +754,48 @@ Each recursive technique is made up of 2 components:
 
 **Direct recursion** : When a method calls itself within its own body, this is known as direct recursion.
 
-### Iteration
+### Iteration : 
 
 **Iteration** : Iterative code is a piece of code that loops. In other words, the same code is duplicated repeatedly. It is a looped section of the code. To put it another way, the same code is repeated again. It refers to a situation in which loops are used to repeat some statements until a condition is met. It is a sequence of instructions that are called on repeatedly and is applied to variables.
 
-### Fibonacci Sequence
+### Fibonacci Sequence : 
 
 **Fibonacci Sequence** : The Fibonacci Sequence is a well-known mathematical formula in which each number in the sequence equals the sum of the two numbers before it.
 
 Formula : `Fn = Fn-2 + Fn-1`
 
-### Permutation
+### Permutation : 
 
 **Permutation** : The various ways in which a group of things can be organized are known as permutations. It is a combination of all or some of the items in a set. The words 'cat' and 'act,' for example, are two different permutations (or arrangements) of a similar three-letter word.
 
-### Binary Search Tree (BST)
+### Binary Search Tree (BST) : 
 
 A **Binary Search Tree (BST)** is a hierarchical data structure made up of vertices that are connected by edges. The left node's value is lower than the parent node's value, and the right node's value is higher than the parent node's value.
 
-### Depth First Search (DFS)
+### Depth First Search (DFS) : 
 
 **Depth First Search** : A method for traversing and searching all nodes in a graph is called **Depth First Search** . We can use the technique to see if two nodes, node x and node y, have a path connecting them.
 
-### Topological Sort
+### Topological Sort : 
 
 **Topological Sort** : A topological sort is a linear ordering of vertices in a directed acyclic graph such that for every directed edge uv, vertex u comes before v in the ordering.In a directed acyclic graph, topological sort produces a linear ordering of vertices.
 
-### Program
+### Program : 
 
 **Program** : A program is a sequence of instructions that are executed by a computer. It is a sequence of statements that are executed by a computers operating system to accomplish a specific task.
 
-### Process
+### Process : 
 
 **Process** :  A process is a running program. A process is a runtime execution environment made up of instructions, user data, and system data segments, as well as a variety of additional resources including CPU, memory, address space, disk, and network I/O. A program and a process are frequently used interchangeably, however the objective is usually to refer to a process.
 
-### Thread
+### Thread : 
 
 **Thread** : A thread is a lightweight process that can be used to execute a program. A thread is a process's smallest unit of execution. A thread merely executes instructions in a sequential order. A process may include numerous threads that are active at the same time.
 
-### Concurrency
+### Concurrency : 
 
 **Concurrency** : Concurrency is the ability of multiple threads to execute simultaneously. It is a way to improve the performance of a computer system by allowing multiple threads to execute simultaneously. A concurrent program is one that can be divided into constituent parts, each of which can be performed out of order or in partial order without impacting the ultimate result. A concurrent system is one that may run numerous unique programs or more than one independent unit of the same program in overlapping time periods.
 
-### Parallelism
+### Parallelism : 
 
 **Parallelism** : A parallelism is the ability of multiple programs to execute simultaneously. A parallel system is one that must be able to run numerous programs at the same time. It is a way to improve the performance of a computer system by allowing multiple programs to execute simultaneously. A parallel program is one that can be divided into constituent parts, each of which can be performed out of order or in partial order without impacting the ultimate result. A parallel system is one that may run numerous unique programs or more than one independent unit of the same program in overlapping time periods.

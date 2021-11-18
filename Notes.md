@@ -634,7 +634,7 @@ class Main {
 
 A class may implement several interfaces, and an interface may extend from multiple interfaces.
 
-### Benefits of using Interfaces
+### Benefits of using Interfaces : 
 
 - Multiple inheritance may be accomplished through the usage of interfaces.
 
@@ -644,7 +644,7 @@ A class may implement several interfaces, and an interface may extend from multi
 
 - It enable us to attain complete abstraction.
 
-### Default Interface Method
+### Default Interface Method : 
 
 **Default Method** : Methods with a body are referred to as default methods. The most common application of default methods in interfaces is to extend the functionality of a particular type without breaking down the implementing classes. Example :
 
@@ -661,15 +661,15 @@ public interface MoneyTransfer {
 
 ```
 
-### Static Interface Method
+### Static Interface Method :
 
 **Static Interface Method** : The static methods in interfaces are comparable to default methods, with the exception that we can't override them. If we want to give an implementation in our interface but don't want the implementing class to override it, we can declare the method static.
 
-## Polymorphism
+## Polymorphism : 
 
 **Polymorphism** : is a mixture of two Greek words: Poly (many) and Morph (forms). For example, from the base class of Shape, we may derive subclasses such as Rectangle, Pentagon, Circle, and so on. This is accomplished by extending the base class to create new sub-classes.
 
-## Dynamic Polymorphism
+## Dynamic Polymorphism : 
 
 **Dynamic Polymorphism** : is the technique that allows methods in the base and derived classes to have the same name, return type, and parameters. Runtime polymorphism is another name for it.
 

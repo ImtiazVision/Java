@@ -226,7 +226,7 @@ class Array {
   }
 }
 ```
-
+### Another example
 ```
 class SampleArray {
   public static void main(String[] args) {

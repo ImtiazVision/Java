@@ -566,11 +566,11 @@ class Batsman {
 **Interface** : An interface is similar to a class in that it describes the behavior that a class should have. It is a contract that a class must meet while implementing an interface. The following methods are available in an interface :
 
 ```static method(s),
-private method(s),
-private static method(s),
-public static final variable(s),
-abstract method(s),
-default method(s)
+      private method(s),
+          private static method(s),
+              public static final variable(s),
+                  abstract method(s),
+                       default method(s).
 ```
 
 An interface cannot contain constructor(s). A class may implement an unlimited number of interfaces. An interface cannot be made private or protected, but it can 'extend' from another. While a class employs the keyword `implements` to use an interface, an interface employs the keyword `extends` to use/employ another interface.

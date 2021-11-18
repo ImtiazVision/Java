@@ -523,11 +523,11 @@ There are two sorts of classes:
 
 To implement inheritance, we may utilize the term `extends`. At any one moment, a class may only extend from one other class, and it cannot extend itself.
 
-### Advantage of using Inheritance
+### Advantage of using Inheritance :
 
 Inheritance allows us to eliminate redundant coding, which saves us time and effort. It also allows us to reuse that code in the future if necessary. We can extend the base class logic to reflect the derived class's business logic. This is a simple technique to upgrade or improve individual aspects of a product without compromising the main characteristics. If necessary, we may hide the data by making it private within the base class.
 
-### Example
+### Example :
 
 ```
 
@@ -557,19 +557,21 @@ class Batsman {
 
 ```
 
-### Multiple Inheritance
+### Multiple Inheritance :
 
 **Multiple Inheritance** :  occurs when a class is derived from more than one base class, i.e. when a class has more than one direct parent class. A good example would be an allrounder player in cricket, such as Shakib, who is both a batsman and a bowler.
 
-## Interface
+## Interface : 
 
 **Interface** : An interface is similar to a class in that it describes the behavior that a class should have. It is a contract that a class must meet while implementing an interface. The following methods are available in an interface :
-`static method(s),
+
+```static method(s),
 private method(s),
 private static method(s),
 public static final variable(s),
 abstract method(s),
-default method(s)`.
+default method(s)
+```
 
 An interface cannot contain constructor(s). A class may implement an unlimited number of interfaces. An interface cannot be made private or protected, but it can 'extend' from another. While a class employs the keyword `implements` to use an interface, an interface employs the keyword `extends` to use/employ another interface.
 

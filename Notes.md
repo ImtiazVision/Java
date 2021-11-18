@@ -405,7 +405,7 @@ class Ferrari { // Class name
 }
 ```
 
-The `.` operator may be used to access public members of a class via a class object.
+The `.` operator may be used to access public members of a class via a class object as shown below 👇
 
 
 ```  

@@ -801,3 +801,9 @@ A **Binary Search Tree (BST)** is a hierarchical data structure made up of verti
 ### Parallelism : 
 
 **Parallelism** : A parallelism is the ability of multiple programs to execute simultaneously. A parallel system is one that must be able to run numerous programs at the same time. It is a way to improve the performance of a computer system by allowing multiple programs to execute simultaneously. A parallel program is one that can be divided into constituent parts, each of which can be performed out of order or in partial order without impacting the ultimate result. A parallel system is one that may run numerous unique programs or more than one independent unit of the same program in overlapping time periods.
+
+### Concurrency vs Parallelism :
+
+A **concurrent** system does **not** have to be **parallel**, but a parallel system is. A system can also be both concurrent and parallel, such as a multitasking operating system running on a multicore processor.
+
+Concurrency is the ability to handle many tasks at the same time. Parallelism is the practice of performing many tasks at the same time.

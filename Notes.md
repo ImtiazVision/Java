@@ -457,7 +457,7 @@ Every class has a `this` reference variable. It refers to the class object as a 
 
   - **Abstract Class** : An abstract class is one whose declaration includes the word `abstract`. An abstract class must be inherited from in order to be used. All abstract methods specified in the parent abstract class must be implemented by the class that inherits from it. It cannot be instantiated, that is, an object of an abstract class cannot be created. All abstract methods specified in the parent abstract class must be implemented by the class that inherits from it.
 
-      ```
+ ```
       abstract class Batsman {
 
         public abstract void scoreRuns();
@@ -515,7 +515,7 @@ Every class has a `this` reference variable. It refers to the class object as a 
         }
   
       }
-      ```
+ ```
 
 - **Inheritance** :  allows us to construct a new class from an existing one. The new class is a customized version of the existing class that inherits all of the old class's non-private fields (variables) and methods. The current class is utilized as a starting point or as a foundation for the creation of the new class. Inheritance implements a  `IS A` form of relationship between objects. For example, men/women IS A human being, a computer IS A gadget, an apple iPhone `IS A` cellphone. The practical use case of **inheritance** is that we can create new classes by reusing existing ones.
 
@@ -684,7 +684,6 @@ public interface MoneyTransfer {
 **Method Overriding** : The process of redefining a parent class's method in a subclass is known as method overriding. It is referred to as runtime polymorphism. It allows a child class to implement its own customized method that is already offered by the parent class. In other words, it allows a child class to give a more detailed implementation of a method that already exists in its parent class.  It occurs during the execution of the program. One of the cool things about this process is that without altering the parent class methods, the derived classes can provide their own specialized implementations for inherited methods. At least one method with the same name must exist in both the parent and child classes. Moreover, the same kind and amount of parameters must be included in both the child and parent classes. Because the data binding is done at runtime, performance is mediocre. For example, when we click the submit button for an assignment, it is submitted, but we have no idea how the underlying stuff works once we hit the button.
 
 ```
-
 class Batsman{
   public void scoreRuns(){
     System.out.println("Nice cover drive to score 2 runs");
@@ -700,7 +699,6 @@ class Kohli extends Batsman{
     System.out.println("Nice pull shot for a maximum of 6 runs");
   }
 }
-
 ```
 
 ## Method Overloading
@@ -708,7 +706,6 @@ class Kohli extends Batsman{
 **Method overloading** : When two or more methods in the same class have the same name but distinct parameters, this is known as overloading. It is often referred to as compile-time polymorphism.
 
 ```
-
 class Batsman{
   public void scoreRuns(){
     System.out.println("Nice cover drive to score 2 runs");

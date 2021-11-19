@@ -820,4 +820,4 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 
 **Latency** : is defined as the amount of time it takes to execute an operation or generate a result. Latency is also known as reaction time.
 
-**Throughput** : is defined as the amount of time it takes to execute an operation or generate a result. Throughput is also known as response time. It is a measure of the quantity of work performed in a given length of time.
+**Throughput** : is defined as the amount of time it takes to execute an operation or generate a result. Throughput is also known as response time. It is a measure of the quantity of work performed in a given length of time. Throughput in the context of concurrency may be thought of as the time it takes to run a program or calculation.

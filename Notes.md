@@ -823,3 +823,5 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 **Throughput** : is defined as the amount of time it takes to execute an operation or generate a result. Throughput is also known as response time. It is a measure of the quantity of work performed in a given length of time. Throughput in the context of concurrency may be thought of as the time it takes to run a program or calculation.
 
 **Critical Section** : Any area of code that may be performed concurrently by more than one thread of the program and exposes any shared data or resources utilized by the application for access is considered a critical section.
+
+**Race Condition** : A race condition is a fault in a program's timing/ordering of operations that interrupts the program's logic and leads to erroneous outcomes. When threads go over critical sections without thread synchronization, race conditions occur.

@@ -827,3 +827,5 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 **Race Condition** : A race condition is a fault in a program's timing/ordering of operations that interrupts the program's logic and leads to erroneous outcomes. When threads go over critical sections without thread synchronization, race conditions occur.
 
 **Deadlocks** : occur when two or more threads are unable to continue because the resource required by the first thread is held by the second, and the resource required by the second is held by the first.
+
+**Live-Lock** : When two threads repeatedly react to the activities of the other thread without making any actual progress, this is known as a **live-lock**. Think of two people trying to cross each other in a corridor as an analogy. Kiran moves to his right to allow Andrew to pass, while Andrew goes to his left to allow Kiran to pass. Now they're both blocking each other.

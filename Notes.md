@@ -825,3 +825,5 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 **Critical Section** : Any area of code that may be performed concurrently by more than one thread of the program and exposes any shared data or resources utilized by the application for access is considered a critical section.
 
 **Race Condition** : A race condition is a fault in a program's timing/ordering of operations that interrupts the program's logic and leads to erroneous outcomes. When threads go over critical sections without thread synchronization, race conditions occur.
+
+**Deadlocks** : occur when two or more threads are unable to continue because the resource required by the first thread is held by the second, and the resource required by the second is held by the first.

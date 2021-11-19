@@ -829,3 +829,5 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 **Deadlocks** : occur when two or more threads are unable to continue because the resource required by the first thread is held by the second, and the resource required by the second is held by the first.
 
 **Live-Lock** : When two threads repeatedly react to the activities of the other thread without making any actual progress, this is known as a **live-lock**. Think of two people trying to cross each other in a corridor as an analogy. Kiran moves to his right to allow Andrew to pass, while Andrew goes to his left to allow Kiran to pass. Now they're both blocking each other.
+
+**Mutex** : The mutex is a synchronization primitive that is used to protect shared resources from being accessed by multiple threads at the same time. Mutex indicates reciprocal exclusion, as the name suggests. A mutex is a form of lock that is used to protect shared data like a linked list, an array, or any primitive type. A mutex restricts access to a resource or vital portion to a single thread.

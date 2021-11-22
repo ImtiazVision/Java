@@ -841,3 +841,5 @@ Concurrency is the ability to handle many tasks at the same time. Parallelism is
 With respect to clock speeds, Moore's law's promise of exponential growth came to an end more than a decade ago. Processor clock rates have slowed far quicker than the number of transistors that may be packed on a microchip has increased. Right after the year 2003, the linear exponential rise ceased and the trend line of exponential growth has flattened down.
 
 We need different ways to obtain performance increases because CPUs aren't growing quicker as quickly as they used to. Multicore CPUs are one method to do this. Multicore processors, which were first introduced in the early 2000s, feature many CPUs on the same computer. Programs must be developed as multi-threaded applications to take use of this processing capacity.
+
+**Amdahl's Law** : The greatest speedup that may be gained while parallelizing the execution of a program is defined by Amdahl's law. The law indicates the maximum potential speedup a program may obtain by utilizing more computer resources. Amdahl's law states that the speedup of a program is the ratio of the number of processors to the number of threads.  

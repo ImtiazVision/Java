@@ -845,3 +845,5 @@ We need different ways to obtain performance increases because CPUs aren't growi
 **Amdahl's Law** : The greatest speedup that may be gained while parallelizing the execution of a program is defined by Amdahl's law. The law indicates the maximum potential speedup a program may obtain by utilizing more computer resources. Amdahl's law states that the speedup of a program is the ratio of the number of processors to the number of threads.  
 
 **Synchronized** : A method or block of code is said to be synchronized when it is guaranteed that it will not be executed by more than one thread at a time. The synchronized keyword is the simplest basic construct for thread synchronization. It may be used to limit access to specific areas of a website one thread at a time.
+
+**Executors** : Executors are a set of classes that provide a framework for creating and managing threads. The Executors class is the abstract base class for all Executor implementations. Consumer-producer patterns are used to create executors. Threads consume the tasks we create for processing.

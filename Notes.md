@@ -843,3 +843,5 @@ With respect to clock speeds, Moore's law's promise of exponential growth came t
 We need different ways to obtain performance increases because CPUs aren't growing quicker as quickly as they used to. Multicore CPUs are one method to do this. Multicore processors, which were first introduced in the early 2000s, feature many CPUs on the same computer. Programs must be developed as multi-threaded applications to take use of this processing capacity.
 
 **Amdahl's Law** : The greatest speedup that may be gained while parallelizing the execution of a program is defined by Amdahl's law. The law indicates the maximum potential speedup a program may obtain by utilizing more computer resources. Amdahl's law states that the speedup of a program is the ratio of the number of processors to the number of threads.  
+
+**Synchronized** : A method or block of code is said to be synchronized when it is guaranteed that it will not be executed by more than one thread at a time. The synchronized keyword is the simplest basic construct for thread synchronization. It may be used to limit access to specific areas of a website one thread at a time.

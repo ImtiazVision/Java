@@ -848,4 +848,4 @@ We need different ways to obtain performance increases because CPUs aren't growi
 
 **Executors** : Executors are a set of classes that provide a framework for creating and managing threads. The Executors class is the abstract base class for all Executor implementations. 
 
-Implementations by Executors :  Consumer-producer patterns are used to create it. Threads consume the tasks we create for processing.
+**Implementations by Executors** :  Consumer-producer patterns are used to create it. Threads consume the tasks we create for processing.

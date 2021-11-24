@@ -846,4 +846,6 @@ We need different ways to obtain performance increases because CPUs aren't growi
 
 **Synchronized** : A method or block of code is said to be synchronized when it is guaranteed that it will not be executed by more than one thread at a time. The synchronized keyword is the simplest basic construct for thread synchronization. It may be used to limit access to specific areas of a website one thread at a time.
 
-**Executors** : Executors are a set of classes that provide a framework for creating and managing threads. The Executors class is the abstract base class for all Executor implementations. Consumer-producer patterns are used to create it. Threads consume the tasks we create for processing.
+**Executors** : Executors are a set of classes that provide a framework for creating and managing threads. The Executors class is the abstract base class for all Executor implementations. 
+
+Implementations by Executors :  Consumer-producer patterns are used to create it. Threads consume the tasks we create for processing.

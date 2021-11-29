@@ -851,3 +851,6 @@ We need different ways to obtain performance increases because CPUs aren't growi
 **Implementations by Executors** :  Consumer-producer patterns are used to create it. Threads consume the tasks we create for processing.
 
   - **Sequential Approach** : A thread is created for each task. The method just receives an order and attempts to carry it out. Other requests are blocked until the method has finished processing the current request.
+
+
+**Thread Pool** : A thread pool is a collection of homogeneous worker threads that are allocated to do tasks. After completing a job, a worker thread is returned to the pool. Thread pools are often linked to a queue from which jobs are dequeued for execution by worker threads.

@@ -854,3 +854,14 @@ We need different ways to obtain performance increases because CPUs aren't growi
 
 
 **Thread Pool** : A thread pool is a collection of homogeneous worker threads that are allocated to do tasks. After completing a job, a worker thread is returned to the pool. Thread pools are often linked to a queue from which jobs are dequeued for execution by worker threads.
+
+Below is an example of calling a function: 
+
+```public static void announceDeveloperTeaTime() {
+   System.out.printin("Waiting for developer tea time...");
+    System.out.print In("Type in a random word and press Enter to start developer tea tim
+   Scanner input = new Scanner(System.in);
+   input.next();
+   System.out.print In("It's developer tea time!");
+public static void main(String [] args) {
+   announceDeveloperTeaTime ();```

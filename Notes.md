@@ -869,7 +869,7 @@ Below is an example of calling a function:
 
 ```public static void announceDeveloperTeaTime() {
    System.out.printin("Waiting for developer tea time...");
-    System.out.print In("Type in a random word and press Enter to start developer tea tim
+    System.out.print In("Type in a random word and press Enter to start developer tea time.");
    Scanner input = new Scanner(System.in);
    input.next();
    System.out.print In("It's developer tea time!");

@@ -341,6 +341,15 @@ class ForLoop {
   }
 }
 ```
+**Nested For Loop** :
+
+```
+for (int i=0; i<n; i++){
+    for (int j=0; j<m; j++){
+        System.out.println(i*j);
+    }
+}
+```
 
 ### Object Oriented Programming
 
@@ -855,6 +864,7 @@ We need different ways to obtain performance increases because CPUs aren't growi
 
 **Thread Pool** : A thread pool is a collection of homogeneous worker threads that are allocated to do tasks. After completing a job, a worker thread is returned to the pool. Thread pools are often linked to a queue from which jobs are dequeued for execution by worker threads.
 
+
 Below is an example of calling a function: 
 
 ```public static void announceDeveloperTeaTime() {
@@ -865,3 +875,4 @@ Below is an example of calling a function:
    System.out.print In("It's developer tea time!");
 public static void main(String [] args) {
    announceDeveloperTeaTime ();```
+

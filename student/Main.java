@@ -10,3 +10,17 @@ public class Main {
     }
 
 }
+
+class Main {
+  public static void main(String[] args) {
+    int studentAge = 15;
+    double studentGPA = 3.45;
+    char studentFirstInitial = 'I';
+    char studentLastInitial = 'A';
+    boolean hasPerfectAttendance = true;
+    System.out.println(hasPerfectAttendance);
+    System.out.println(studentAge);
+    System.out.println(studentFirstInitial);
+    System.out.println(studentLastInitial);
+  }
+}

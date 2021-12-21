@@ -4,3 +4,6 @@
  - Vercel
  - Cloudflare
  - GitHub Pages
+
+- Heroku
+- Linode
